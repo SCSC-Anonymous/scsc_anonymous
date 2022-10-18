@@ -1,0 +1,6 @@
+db.scanned_tokens.find(
+  {scan_time: {$gt: 1654420988}}
+).limit(10000)
+
+
+used for second dataset
